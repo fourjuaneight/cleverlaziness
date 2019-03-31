@@ -1,0 +1,303 @@
+footer,
+header,
+nav {
+  display: flex;
+}
+nav {
+  align-items: center;
+}
+article,
+main,
+ul#portfolio {
+  margin: 0 auto;
+}
+.hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+::selection {
+  background: #414747;
+  background: var(--button);
+  color: #fff;
+}
+html {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+a,
+article h2 a,
+button,
+label,
+ul#portfolio h4 a {
+  color: #333;
+  color: var(--text);
+}
+a:focus,
+article h2 a:focus,
+button:focus,
+label:focus,
+ul#portfolio h4 a:focus {
+  outline-color: #d7373a;
+  outline-color: var(--link);
+}
+article,
+footer,
+header,
+main {
+  padding: 15px;
+}
+a:active,
+a:hover,
+article h2 a:active,
+article h2 a:hover,
+ul#portfolio h4 a:active,
+ul#portfolio h4 a:hover {
+  color: #d7373a;
+  color: var(--link);
+  text-decoration: underline;
+}
+a svg {
+  fill: #333;
+  fill: var(--text);
+}
+a:active svg,
+a:hover svg {
+  fill: #d7373a;
+  fill: var(--link);
+}
+a:focus {
+  outline: none;
+}
+a:focus svg {
+  fill: #d7373a;
+  fill: var(--link);
+}
+hr {
+  color: #dcdddc;
+  color: var(--border);
+}
+article a {
+  color: #d7373a;
+  color: var(--link);
+}
+article p {
+  line-height: 1.65rem;
+}
+article,
+main,
+ul#portfolio {
+  max-width: 930px;
+  width: 100%;
+}
+blockquote {
+  border-left: 2px solid #dcdddc;
+  border-left-color: var(--border);
+  margin: 0 0 15px 15px;
+  padding-left: 15px;
+}
+code,
+code span,
+figure,
+pre {
+  font-family: Fira Code, monospace !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+figure {
+  background-color: #424242;
+  background-color: var(--contentBG);
+  color: #333;
+  color: var(--text);
+}
+figure,
+h1,
+h2,
+h3,
+h4,
+nav > *,
+p {
+  margin: 0;
+}
+figure,
+pre {
+  border-radius: 5px;
+  margin: 20px 0;
+}
+figcaption p {
+  padding: 5px;
+}
+header {
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4,
+header {
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+h4 {
+  font-size: 1.65rem;
+}
+h2,
+h3,
+h4 {
+  margin: 10px 0;
+}
+img,
+svg {
+  height: auto;
+  width: 100%;
+}
+input[type='checkbox']:active + label,
+input[type='checkbox']:hover + label,
+label:active {
+  outline: none;
+}
+li {
+  line-height: 1.65rem;
+  margin-bottom: 5px;
+}
+nav {
+  justify-content: space-between;
+}
+nav a svg {
+  height: 55px;
+  width: 55px;
+}
+ol,
+ul {
+  padding-left: 30px;
+}
+ol ul {
+  padding-left: 20px;
+}
+pre {
+  padding: 30px;
+}
+.meta {
+  color: #424242;
+  color: var(--meta);
+}
+.none {
+  display: none !important;
+  visibility: hidden !important;
+}
+body {
+  background-color: #fafbfa;
+  background-color: var(--background);
+  color: #333;
+  color: var(--text);
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 0 env(safe-area-inset-right) 0 env(safe-area-inset-left);
+}
+body#dyslexic {
+  font-family: Dyslexic, sans-serif;
+  font-size: 16px;
+}
+body#rubik {
+  font-family: Rubik, sans-serif;
+}
+body.black {
+  --background: #000;
+  --border: #6f697c;
+  --button: #8f3a6d;
+  --content: #73d5e9;
+  --contentBG: #101116;
+  --text: #fefffe;
+  --meta: #cdaef9;
+  --link: #8be9fd;
+}
+body.dark {
+  --background: #111c2a;
+  --border: #304361;
+  --button: #503a88;
+  --content: #bca9e5;
+  --contentBG: #172134;
+  --text: #f6f7ee;
+  --meta: #c1a35c;
+  --link: #54c1dc;
+}
+body.light {
+  --background: #fafbfa;
+  --border: #dcdddc;
+  --button: #414747;
+  --content: #6ac9fb;
+  --contentBG: #424242;
+  --text: #333;
+  --meta: #424242;
+  --link: #d7373a;
+}
+@media screen and (prefers-color-scheme: dark) {
+  body.black {
+    --background: #000;
+    --border: #6f697c;
+    --button: #8f3a6d;
+    --content: #73d5e9;
+    --contentBG: #101116;
+    --text: #fefffe;
+    --meta: #cdaef9;
+    --link: #8be9fd;
+  }
+}
+@media print {
+  body button.footnote-button,
+  body div#ui-options,
+  body div.footnote-container,
+  body footer,
+  body header,
+  body section.stuff {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body main > * {
+    color: #333;
+  }
+  body main h1 {
+    font-size: 1.5rem;
+  }
+  body main h2 {
+    font-size: 1.4rem;
+  }
+  body main h3 {
+    font-size: 1.3rem;
+  }
+  body main h4 {
+    font-size: 1.1rem;
+  }
+  body main h3,
+  body main h4 {
+    font-weight: 400;
+  }
+  body main a {
+    color: #333;
+    text-decoration: none;
+  }
+  body main a.email:after {
+    content: ': hello@juanvillela.com';
+  }
+}
