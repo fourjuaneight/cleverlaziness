@@ -83,7 +83,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.4.0",
-    "npm": "6.13.4",
+    "npm": "6.14.6",
     "npx": "^10.2.0",
     "postcss-calc": "^7.0.1",
     "postcss-cli": "^6.0.0",
