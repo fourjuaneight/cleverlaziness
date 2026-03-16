@@ -1,7 +1,7 @@
 {
-  "name": "blog",
+  "name": "cleverlaziness",
   "version": "1.22.0",
-  "description": "Personal blog.",
+  "description": "A blog about automation, web dev, and the internet.",
   "scripts": {
     "build:chroma": "hugo gen chromastyles > assets/css/syntax.css",
     "build:fallback": "npm run build:prod || npm run build:prod",
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fourjuaneight/blog.git"
+    "url": "git+https://github.com/fourjuaneight/cleverlaziness.git"
   },
   "author": "Juan Villela <juan@villela.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fourjuaneight/blog/issues"
+    "url": "https://github.com/fourjuaneight/cleverlaziness/issues"
   },
-  "homepage": "https://github.com/fourjuaneight/blog#readme",
+  "homepage": "https://github.com/fourjuaneight/cleverlaziness#readme",
   "dependencies": {
     "@builder.io/partytown": "^0.10.3"
   },
