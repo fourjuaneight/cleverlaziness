@@ -2,6 +2,56 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.23.0] - 2026-03-16
+
+### Bug Fixes
+
+- [Add path based star icon for reviews.](https://github.com/fourjuaneight/cleverlaziness/commit/78d25a837175dfc1ec4549d3e9a4f0f5ccb98b11)
+- [Add missing description to things review.](https://github.com/fourjuaneight/cleverlaziness/commit/86ea092f0fd46868bead1de900a0a3ddd1196548)
+- [Remove weird annotations on last post.](https://github.com/fourjuaneight/cleverlaziness/commit/a723dba5aea3695a71fda5eca6d90182349517c8)
+- [Overwirte existing output when uploading.](https://github.com/fourjuaneight/cleverlaziness/commit/1c29c3a51664d9be8bc8866b896e5f6c26ecf985)
+- [Match wrangler directory when downloading output artifact.](https://github.com/fourjuaneight/cleverlaziness/commit/93b84dc34b0ef894b9026bfc5f97ae6264702521)
+- [Remove email and add contact link.](https://github.com/fourjuaneight/cleverlaziness/commit/562ffd662321df0da51190851b0c26d1498f6cb5)
+- [Update actions images to latest ubuntu.](https://github.com/fourjuaneight/cleverlaziness/commit/cca1dafae397804ddb230667a6aa4ca83f27588e)
+- [Update script so chromium can't use sandbox.](https://github.com/fourjuaneight/cleverlaziness/commit/e835f254387a4a54c8c78c53925641b726105bf2)
+
+### Features
+
+- [Add reading list 8.](https://github.com/fourjuaneight/cleverlaziness/commit/7eb84a3789f1d1f7ff82c83fd5de53539bb0ee95)
+- [Add email for contact.](https://github.com/fourjuaneight/cleverlaziness/commit/44bbe5752a1b00f51b09b82aa9f68f715443b8fa)
+- [Add post about one-thing apps.](https://github.com/fourjuaneight/cleverlaziness/commit/0fde4310cd3c5a9f3f8ad19345a13d2690a0d83c)
+- [Add things review.](https://github.com/fourjuaneight/cleverlaziness/commit/98431f0e7cc1d84b99ec0b8d02da194ad2126ac2)
+- [Add reading list 9.](https://github.com/fourjuaneight/cleverlaziness/commit/eee3892393e36b6dc5b5d6ab93e72028fae4273a)
+- [Add draft about too many meetings.](https://github.com/fourjuaneight/cleverlaziness/commit/ee6fb7f979f2c3de724acca4cb497e81fb9dade1)
+- [Publish post about too many meetings.](https://github.com/fourjuaneight/cleverlaziness/commit/39ba98654e2fad46a743a4faaf3b88955dcc6b73)
+- [Add post about saving stuff online.](https://github.com/fourjuaneight/cleverlaziness/commit/2c091d94b087cec9ca656f555a8d57b6693d6ffa)
+- [Add post about embracing the moment.](https://github.com/fourjuaneight/cleverlaziness/commit/39c60dae20fd9847ee3dc3107dc7f4b7617c18af)
+- [Add post about the Bene Gesserit on governments.](https://github.com/fourjuaneight/cleverlaziness/commit/45ada85a22d9eb93bb4002133ae9a11cce40f090)
+- [Add post about coffee relationship.](https://github.com/fourjuaneight/cleverlaziness/commit/bc01c94e6a9b110ff9affb6801ad4193583f4207)
+- [Add post about tools that just work.](https://github.com/fourjuaneight/cleverlaziness/commit/df6cf9b9088517667b1061469a5295f9b77ce2f3)
+- [Add links to latest blog post.](https://github.com/fourjuaneight/cleverlaziness/commit/f63a10b516c7eebba94b8f0bbc5ab55ef2cba113)
+- [Add shareable directory and hide it from crawlers.](https://github.com/fourjuaneight/cleverlaziness/commit/6f55801fed0969d9c1e97220a62b8ff12fe57435)
+- [Add initial draft about creating a personal wiki.](https://github.com/fourjuaneight/cleverlaziness/commit/2be4d9fd5329dc325765adb2dd46c162ae07d405)
+- [Add archiving banner.](https://github.com/fourjuaneight/cleverlaziness/commit/454d29be7bfbfae1f5221b8f4e3fb6ff05294af5)
+- [Add blog archive post draft.](https://github.com/fourjuaneight/cleverlaziness/commit/4001cc95aa9a2b012a1cd44690a4baa8832bdfb6)
+
+### Miscellaneous Tasks
+
+- [Update Changelog.](https://github.com/fourjuaneight/cleverlaziness/commit/098b2bf133da6b8dd467908ee83e560daeabfd57)
+- [Update fediverse attribution](https://github.com/fourjuaneight/cleverlaziness/commit/3fa8236dbe1aa95f97881c761285e42b3984f084)
+- [Content cleanup](https://github.com/fourjuaneight/cleverlaziness/commit/19b44c60a844c7e82180b651a5fc79236ba86251)
+- [Update Mastodon link, again.](https://github.com/fourjuaneight/cleverlaziness/commit/c4faacb30b087551316acf4f5bf6dd3192d24a99)
+- [Update workflow dependencies.](https://github.com/fourjuaneight/cleverlaziness/commit/f230b5866679e9e29d2c131b798a0a23bd6dbff5)
+- [Remove redundant statements from wiki post.](https://github.com/fourjuaneight/cleverlaziness/commit/3a574ea9654be56868e6cc3071e0f52fd5ba5c1d)
+- [Remove last name from content.](https://github.com/fourjuaneight/cleverlaziness/commit/04ef2e475aa407e729d2375d2e8faf6cbb472c44)
+- [Update go and hugo to latest.](https://github.com/fourjuaneight/cleverlaziness/commit/f23a3ece9215be193f14608fee1eace0d88a3b22)
+- [Update node to latest v22 and dependencies.](https://github.com/fourjuaneight/cleverlaziness/commit/80bd6406094425614b1825b6b22421b3570480f0)
+- [Update dependencies to latest stable versions.](https://github.com/fourjuaneight/cleverlaziness/commit/9aa55432050c8a876d65873f5d1ec7301b7c4590)
+- [Update archiving post to go live.](https://github.com/fourjuaneight/cleverlaziness/commit/253ee0c6a1b98c38dba165f10bf274b6d628fcb7)
+- [Update archived banner to link to post.](https://github.com/fourjuaneight/cleverlaziness/commit/2bd7f2b498f1e13cec655eb27d436e0e7ada04df)
+- [Update repo name.](https://github.com/fourjuaneight/cleverlaziness/commit/e48e319b4261e281d9e96b3e40ad4c4d7f5dcc21)
+- [Update to v1.23.0.](https://github.com/fourjuaneight/cleverlaziness/commit/ee99a876f6946a7415cfb6e89fe1822decea9fb7)
+
 ## [1.22.0] - 2024-09-12
 
 ### Bug Fixes
