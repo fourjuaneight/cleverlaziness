@@ -1,6 +1,6 @@
 {
   "name": "cleverlaziness",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "description": "A blog about automation, web dev, and the internet.",
   "scripts": {
     "build:chroma": "hugo gen chromastyles > assets/css/syntax.css",
